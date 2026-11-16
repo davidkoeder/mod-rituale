@@ -1,0 +1,7 @@
+{
+  "name": "rituale",
+  "version": "0.3.0",
+  "author": { "name": "David Koeder" },
+  "description": "Rituale beim Arbeiten: alle 30 Minuten ein Schluck warmes Wasser mit Tassenzähler, nach 80 Minuten 2 Minuten bewegen, 10 Minuten zeichnen, dann «Stift weg».",
+  "types": "./types/index.d.ts"
+}

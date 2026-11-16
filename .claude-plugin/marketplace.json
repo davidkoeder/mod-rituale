@@ -1,0 +1,5 @@
+{
+  "name": "rituale",
+  "owner": { "name": "David Koeder" },
+  "plugins": [{ "name": "rituale", "source": "./" }]
+}
