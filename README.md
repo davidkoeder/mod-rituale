@@ -40,12 +40,12 @@ Der ganze Code liegt offen in diesem Paket. Du kannst ihn vor der Installation a
 
 Installiert wird über einen **Marktplatz**: eine Art Verzeichnis, aus dem Claude Code Erweiterungen lädt. Dieses Paket ist sein eigener kleiner Marktplatz.
 
-**In der Claude-Desktop-App:** Klick auf das + neben dem Eingabefeld, dann «Plugins». Wähle «Add marketplace» und gib `davidkoeder/rituale` ein. Danach «Add plugin» und «rituale» wählen.
+**In der Claude-Desktop-App:** Klick auf das + neben dem Eingabefeld, dann «Plugins». Wähle «Add marketplace» und gib `davidkoeder/mod-rituale` ein. Danach «Add plugin» und «rituale» wählen.
 
 **Im Terminal**, in Claude Code:
 
 ```
-/plugin install rituale --marketplace davidkoeder/rituale
+/plugin install rituale --marketplace davidkoeder/mod-rituale
 ```
 
 Die Frage nach dem neuen Marktplatz mit `y` bestätigen, dann den Bereich wählen («user» heisst: in allen deinen Sitzungen).
