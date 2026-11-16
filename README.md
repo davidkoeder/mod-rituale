@@ -40,19 +40,23 @@ Der ganze Code liegt offen in diesem Paket. Du kannst ihn vor der Installation a
 
 Installiert wird über einen **Marktplatz**: eine Art Verzeichnis, aus dem Claude Code Erweiterungen lädt. Dieses Paket ist sein eigener kleiner Marktplatz.
 
-**In der Claude-Desktop-App:** Klick auf das + neben dem Eingabefeld, dann «Plugins». Wähle «Add marketplace» und gib `davidkoeder/mod-rituale` ein. Danach «Add plugin» und «rituale» wählen.
-
-**Im Terminal**, in Claude Code:
+**Im Programm «Terminal»**, mit Claude Code dort gestartet (`claude` eintippen, Enter). Dann in Claude Code:
 
 ```
 /plugin install rituale --marketplace davidkoeder/mod-rituale
 ```
 
-Die Frage nach dem neuen Marktplatz mit `y` bestätigen, dann den Bereich wählen («user» heisst: in allen deinen Sitzungen).
+Claude Code fragt, ob es den Marktplatz hinzufügen soll: bestätigen. Dann «Install for you (user scope)» wählen, also für dich in allen Sitzungen. Am Ende steht «Plugin is now active.»
+
+Einmal im Terminal installiert, ist die Mod auch in der Claude-Desktop-App da (Tab «Code»), denn beide lesen dieselben Einstellungen.
+
+**Nur in der Claude-Desktop-App**, ohne Terminal: Klick auf das + neben dem Eingabefeld, dann «Plugins» bzw. «Add plugins». Dort den Marktplatz `davidkoeder/mod-rituale` hinzufügen und «rituale» installieren. Die Menünamen können je nach Version etwas anders heissen.
+
+Noch nie mit dem Terminal gearbeitet? Claude Code im Terminal einrichten geht mit einer Zeile, siehe [Claude Code installieren](https://code.claude.com/docs/en/setup).
 
 ## Einrichten
 
-1. **Bedienfeld öffnen:** Es öffnet sich beim Start von selbst. Hast du es geschlossen, tipp `/rituale` ins Eingabefeld.
+1. **Bedienfeld öffnen:** Tipp `/rituale` ins Eingabefeld. In der Desktop-App und bei breitem Terminal-Fenster öffnet es sich beim Start auch von selbst.
 2. **Deinen Namen eintragen:** Ganz unten im Bedienfeld steht «Dein Name für die Ansagen». Vornamen eintragen und «Speichern» klicken. Dann sagt die Stimme zum Beispiel «Hallo Petra, es ist wieder Zeit für einen Schluck Wasser». Lässt du das Feld leer, kommen die Ansagen ohne Namen. Ändern kannst du den Namen jederzeit.
 3. **Probe:** Der Knopf «Probe» spielt alle vier Signale nacheinander ab. So hörst du, ob Ton und Stimme ankommen.
 
